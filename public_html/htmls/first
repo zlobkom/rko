@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        <title>Региональный кадастр отходов &#183; Информация</title>
+
+        <meta charset="utf-8"  />
+        <meta name="description" content="" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <link href="../../favicon.ico" rel="shortcut icon" type="image/x-icon">
+        
+        <link href="/Content/styles/normalize/normalize.css" rel="stylesheet" type="text/css" />
+        <link href="/Content/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+        <link href="/Content/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+        <link href="/Content/styles/sgp/style.css" rel="stylesheet" type="text/css" />
+        <link href="/Content/styles/sgp/SgpBootstrap.css" rel="stylesheet" type="text/css" />
+        
+        <script src="/Scripts/jquery/jquery-1.8.3.min.js" type="text/javascript"> </script>
+
+        <script src="/Scripts/jquery/jquery.validate.js" type="text/javascript"> </script>
+        <script src="/Scripts/jquery/jquery.validate.unobtrusive.min.js" type="text/javascript"> </script>
+        <script src="/Scripts/jquery/jquery.unobtrusive-ajax.min.js" type="text/javascript"> </script>
+        <script src="/Scripts/jquery/jquery.validate.hooks.js" type="text/javascript"> </script>
+   
+        <script src="/Scripts/bootstrap/bootstrap.js" type="text/javascript"> </script>
+        <script src="/Scripts/bootstrap/less-1.2.1.min.js" type="text/javascript"> </script>
+        <script src="/Scripts/knockout/knockout-2.1.0.debug.js" type="text/javascript"> </script>
+
+        <script src="/Scripts/sgp/main.js" type="text/javascript"> </script>
+        
+        
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-31431554-6']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+        
+
+    </head>
+
+	<body id="index-page-layout">
+
+		<noscript>
+           <meta http-equiv="REFRESH" content="0;URL=/Error/JavaScriptDisabled">
+		</noscript>
+
+		<div class="navbar" id="header" style="margin-bottom: 0px">
+			<div class="colored-header-border"></div>
+			<div class="nav-bar-style">
+				<div class="container-fluid">
+					<a class="brand" href="/">
+						<div class="left">
+							<img src="/Content/img/sgp/layout/tumen1.jpg" alt="Региональный кадастр отходов" class="no-outline"/>
+						</div>
+						<div class="left" id="header-text">
+							<h1 id="waste-registry-label">Региональный кадастр отходов</h1>
+							<h3 id="waste-department-label">Департамент недропользования и экологии Тюменской области</h3>
+						</div>
+						<div class="clear"></div>
+					</a>
+					    <span class="authorization pull-right">
+		<a class="no-outline" href="/Account/LogOn" id="authorization-link">Авторизация</a>
+	</span>
+
+				</div>
+			</div>
+			<div id="horizontal-menu" style="position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.0980392); border-top: 1px solid rgba(0, 0, 0, 0.0980392);">
+				<div class="row-fluid">
+					<ul class="breadcrumb left">
+						<li>
+							<a href="#top">Главная</a>
+						</li>
+                        
+						<li class="breadcrumbs-item">
+							<a href="#documents">Нормативные документы</a>
+						</li>
+                        
+					    <li class="breadcrumbs-item">
+					        <a href="#contacts">Контакты</a>
+					    </li>
+                        
+					    <li class="breadcrumbs-item">
+					       <a href="/Opinion">Отзывы</a>
+					    </li>
+					</ul>
+
+				</div>                
+			
+
+            </div>
+
+		</div>
+		<div class="index-page-main-bg">
+			
+<link href="/Content/styles/sgp/Info.css" rel="stylesheet" type="text/css" />
+<script src="/Scripts/sgp/report.history.js" type="text/javascript"> </script>
+
+<div class="white-block">
+    <div class="row-fluid">
+        
+
+
+
+
+        <div class="span6">
+            <div class="row-fluid">
+                <div class="offset2 span10">
+                    <img src="/Content/img/sgp/layout/system-in-browser.png" alt="Региональный кадастр отходов" class="no-outline" />
+                </div>
+            </div>
+        </div>
+        <div class="span5 index-page-item-description left-padding">
+            <div>Информационно-аналитическая система «Региональный кадастр отходов Тюменской области» разработана в целях повышения эффективности процесса предоставления индивидуальными предпринимателями и юридическими лицами данных, необходимых для ведения РКО, посредством автоматизации процесса сбора ежегодных отчетных данных.</div>
+            <div id="fill-report-div">
+                <a class="no-outline" href="/Report/ReportsHistory" id="fill-report"> </a>
+            </div>
+            <div class="instuctions">
+                <a href="/Home/Manual">Инструкции по заполнению отчетности &#187;</a>
+            </div>
+        </div>
+        <div class="offset1"></div>
+    </div>
+</div>
+
+<div class="grey-block">
+	
+	<div class="row-fluid">
+        
+        <div class="span4 ">
+			<div>
+				<div class="circle">3086</div>
+				<div class="counter-description">Количество зарегистрированных пользователей</div>
+			</div>
+		</div>
+
+		<div class="span4 ">
+			<div>
+				<div class="circle">0</div>
+				<div class="counter-description">Количество пользователей онлайн</div>
+			</div>
+		</div>
+        
+        <div class="span4 ">
+			<div>
+				<div class="circle">9897</div>
+				<div class="counter-description">Количество принятых отчетов</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+</div>
+
+
+
+<div class="white-block">
+    <div class="row-fluid">
+		<div class="offset1"></div>
+		<div class="span5 index-page-item-description" style="margin-top: 5%;">
+			<div>Постановлением от 18.07.2008 г. №197-п «О порядке ведения регионального кадастра отходов Тюменской области» определено, что для ведения регионального Кадастра отходов Тюменской области индивидуальные предприниматели и юридические лица предоставляют в Департамент недропользования и экологии Тюменской области сведения об образовании, использовании, обезвреживании, транспортировании и размещении отходов производства и потребления.</div>
+		</div>
+         
+		<div class="span6">
+			<div class="row-fluid">
+				<div class="offset3 span8">
+					<img src="/Content/img/sgp/layout/gerb-index.png" alt="Региональный кадастр отходов" class="no-outline" />
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<div class="grey-block" style="padding: 40px;" id="documents">
+    <div class="row-fluid">
+        <div style="margin-left: 25.15625px">
+            <h2>Нормативные документы</h2>
+            <ul class="documents-list">
+                <li>
+                    <a href="http://www.tyumen-city.ru/vlast/administration/territorialynie/uprava_kao/info/administrativnai-komissii/" target="_blank">&laquo;Кодекс Тюменской области об административной ответственности&raquo; от 27.12.2007 №55 (принят Тюменской областной Думой 20.12.2007)</a>
+                </li>
+                <li>
+                    <a href="http://www.consultant.ru/popular/okrsred/" target="_blank">Федеральный закон №7-фз &laquo;Об охране окружающей среды&raquo; от 10.01.2002 г.</a>
+                </li>
+                <li>
+                    <a href="http://base.consultant.ru/cons/cgi/online.cgi?req=doc;base=LAW;n=149817;fld=134;dst=4294967295;rnd=0.5601045018993318;from=131656-0" target="_blank">Федеральный закон № 89-фз &laquo;Об отходах производства и потребления&raquo; от 22.05.1998 г.</a>
+                </li>
+                <li>
+                    <a href="http://base.garant.ru/12121039/" target="_blank">Постановление Правительства Российской Федерации №818 &laquo;О порядке ведения государственного кадастра отходов и проведения паспортизации опасных отходов&raquo; от 26.10.2000 г.</a>
+                </li>
+                <li>
+                    <a href="http://admtyumen.ru/files/upload/%D0%9F%D0%A0%D0%90%D0%92%D0%98%D0%A2%D0%95%D0%9B%D0%AC%D0%A1%D0%A2%D0%92%D0%9E%20%D0%A2%D0%AE%D0%9C%D0%95%D0%9D%D0%A1%D0%9A%D0%9E%D0%99%20%D0%9E%D0%91%D0%9B%D0%90%D0%A1%D0%A2%D0%98%20197-%D0%BF.doc" target="_blank">Постановление Правительства Тюменской области №197-п &laquo;О порядке ведения регионального кадастра отходов Тюменской области&raquo; от 18.07.2008 г.</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="white-block">
+
+    <div class="row-fluid">
+        
+		<div class="span6">
+			<div class="row-fluid">
+				<div class="offset4 span8">
+					<img src="/Content/img/sgp/layout/law.png" alt="Региональный кадастр отходов" class="no-outline" />
+				</div>
+			</div>
+		</div>
+
+		<div class="span5 index-page-item-description left-padding"  style="margin-top: 1%;">
+		    <div>
+		        <strong>Ответственность за непредставление сведений, составляющих отчетность по региональному кадастру отходов Тюменской области:</strong><br/>
+                Закон Тюменской области №55 от 27.12.2007 г. «Кодекс Тюменской области об административной ответственности», статья 3.22, внесенная постановлением Тюменской областной Думы №3294 от 24.11.2011 г. предусматривает, что «нарушение установленного нормативным правовым актом Тюменской области порядка предоставления сведений, необходимых для ведения регионального кадастра отходов Тюменской области, - влечет наложение административного штрафа на должностных лиц в размере десяти тысяч рублей; на юридических лиц - ста тысяч рублей»
+		    </div>
+		</div>
+        <div class="offset1"></div>
+	</div>
+
+</div>
+
+
+<div id="footer">
+    
+    <div class="row-fluid">
+        <div style="color: white; padding-bottom: 60px;" id="contacts">
+            <h2 >Департамент недропользования и экологии Тюменской области</h2>
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        
+        <div class="span6" style=" padding-top: 18px;  border-right: 1px dotted white;">
+			
+            <table class="table contacts-table pull-left">
+                <tbody>
+                    <tr>
+                        <td rowspan="2" class="office">Кабинет 805</td>
+                        <td><a href="mailto:BurakovVV@72to.ru">Бураков Виталий Витальевич</a> <i class="icon-envelope icon-white"></i></td>
+                        <td>55-62-36</td>
+                    </tr>
+                    <tr>
+                        <td><a href="mailto:BarsukovaEM@72to.ru">Барсукова Екатерина Михайловна</a> <i class="icon-envelope icon-white"></i> </td>
+                        <td>т.ф. 55-62-34</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3" style="height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="4" class="office">Кабинет 802</td>
+                        <td><a href="mailto:PrihodkoOB@72to.ru">Приходько Ольга Борисовна</a> <i class="icon-envelope icon-white"></i> </td>
+                        <td>т.ф. 55-62-25</td>
+                    </tr>
+                    <tr>
+                        <td><a href="mailto:KaidalovaYuN@72to.ru">Кайдалова Юлия Николаевна</a> <i class="icon-envelope icon-white"></i></td>
+                        <td>55-62-24</td>
+                    </tr>
+                    <tr>
+                        <td><a href="mailto:SheshukovaLA@72to.ru">Шешукова Лариса Анатольевна</a> <i class="icon-envelope icon-white"></i> </td>
+                        <td>55-62-23</td>
+                    </tr>
+                    <tr>
+                        <td><a href="mailto:LyahovaYI@72to.ru">Ляхова Яна Игоревна</a> <i class="icon-envelope icon-white"></i> </td>
+                        <td>55-62-37</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+
+        <div class="span6" style="color: white; font-size: 14px; padding-top: 22px; line-height: 2em; padding-right: 40px;  padding-bottom: 10px; padding-left: 3%;">
+			
+            <table class="address-table">
+                <tr>
+                    <td class="address-table-label"><b>Адрес:</b></td>
+                    <td class="address-table-content">625000, г. Тюмень, ул. Советская, д. 61</td>
+                </tr>
+                <tr>
+                    <td class="address-table-label"><b>Режим работы:</b></td>
+                    <td class="address-table-content">
+                        <p>
+                            Понедельник - четверг: с 8:45 до 18:00<br/>
+                            Пятница: с 9:00 до 17:00
+                        </p>
+                        <p>Обеденный перерыв: с 13:00 до 14:00. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="address-table-content sgp-site-link-wrapper">
+                            <a href="http://www.sibgeoproject.ru" target="_blank">
+                                <img src="/Content/img/sgp/layout/sgp-white-logo.png" />
+                                <span><br/>разработка системы</span>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+</div>
+		</div>
+		
+	</body>
+</html>

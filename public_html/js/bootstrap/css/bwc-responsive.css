@@ -1,0 +1,107 @@
+.container form { 
+	display: block; 
+}
+.container-fluid form { 
+	display: block; 
+}
+.breadcrumb a.dropdown:hover {
+  text-decoration: none;
+  cursor:pointer;
+}
+.caret-right {
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #000000;
+    border-top: 4px solid transparent;
+    content: "";
+    display: inline-block;
+    right: 0;
+    vertical-align: top;
+}
+.dropdown .caret-right {
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.dropdown:hover .caret-right,
+.open .caret-right {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.breadcrumb-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 4px 0;
+  margin: 1px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+.breadcrumb-menu li {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.open > .breadcrumb-menu {
+ 
+    text-align: center;
+  	display: block;
+}
+.breadcrumb-menu .open > .breadcrumb-menu {
+
+	border-radius: 3px;
+	left: 100%;
+	margin-top: -10px !important;
+	moz-border-radius: 3px;
+	position: absolute;
+	webkit-border-radius: 3px;
+
+}
+.breadcrumb-menu .breadcrumb-menu::before {
+    content: '';
+    display: inline-block;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent; 
+    border-right:7px solid #CCC;
+    border-right-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 9px;
+    left: -7px;
+}
+
+.breadcrumb-menu .breadcrumb-menu::after {
+    content: '';
+    display: inline-block;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent; 
+    border-right:6px solid white;
+    position: absolute;
+    top: 10px;
+    left: -6px;
+}
+a.child-service-menu {
+	padding:0 5px;
+	cursor:pointer
+}
+.row-90{width:90%}
